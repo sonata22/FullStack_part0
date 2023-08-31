@@ -1,0 +1,1 @@
+[Task Deskription Link](https://fullstackopen.com/en/part0/fundamentals_of_web_apps#:~:text=0.5%3A%20Single%20page%20app%20diagram)https://fullstackopen.com/en/part0/fundamentals_of_web_apps#:~:text=0.5%3A%20Single%20page%20app%20diagram
