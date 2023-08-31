@@ -10,13 +10,14 @@ sequenceDiagram
     Note right of browser: Content-Type: application/x-www-form-urlencoded
     activate server
     server-->>browser: 302 Found, URL redirect
-    Note left of server: Location /exampleapp/notes, Content-Type: text/html, charset=utf-8
+    Note left of server: Location /exampleapp/notes
+    Note left of server: Content-Type: text/html, charset=utf-8
     deactivate server
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: 200 OK, HTML document
-    Note right of browser: Content-Type: text/html, charset=utf-8
+    Note left of server: Content-Type: text/html, charset=utf-8
     deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
