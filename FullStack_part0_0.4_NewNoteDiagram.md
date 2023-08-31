@@ -16,7 +16,7 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: 200 OK, HTML document
-    Note left of browser: Content-Type: text/html, charset=utf-8
+    Note right of browser: Content-Type: text/html, charset=utf-8
     deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
