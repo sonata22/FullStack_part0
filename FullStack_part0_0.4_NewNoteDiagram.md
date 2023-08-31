@@ -8,6 +8,7 @@ sequenceDiagram
     Note right of browser: The "Save" button is clicked by user
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     Note right of browser: Content-Type: application/x-www-form-urlencoded
+    Note right of browser: Payload: note: Here goes the new note!
     activate server
     server-->>browser: 302 Found, URL redirect
     Note left of server: Location /exampleapp/notes
